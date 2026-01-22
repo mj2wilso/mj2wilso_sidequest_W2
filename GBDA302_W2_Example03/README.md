@@ -1,6 +1,4 @@
-## Project Title
-
-GBDA302 Week 2 Example 3: Platforms (AABB Collisions)
+## Week 2 Side Quest
 
 ---
 
@@ -16,13 +14,13 @@ Adds several rectangular platforms. The blob is drawn as a noisy circle but coll
 
 ---
 
-## Learning Goals
+## Setup and Interaction Instrucitons
 
-Learning Goals:
+Code was written by Dr. Karen Cochrane
 
-- Convert a circular sprite to an AABB for collision
-- Implement overlap test and push-out resolution
-- Manage grounded state only when landing on top faces
+---
+
+## Iteration Notes
 
 ---
 
@@ -32,8 +30,6 @@ N/A
 
 ---
 
-## GenAI
-
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+## References
 
 ---

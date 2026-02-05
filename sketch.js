@@ -9,12 +9,12 @@ let blob3 = {
 
   // Visual properties
   r: 18, // Base radius
-  points: 7, // Number of points used to draw the blob
-  wobble: 6, // Edge deformation amount
-  wobbleFreq: 3.5,
+  points: 5, // Number of points used to draw the blob
+  wobble: 15, // Edge deformation amount
+  wobbleFreq: 2,
 
   // Time values for breathing animation
-  t: 0,
+  t: 100,
   tSpeed: 0.08,
 
   // Physics: velocity
@@ -22,10 +22,10 @@ let blob3 = {
   vy: 0, // Vertical velocity
 
   // Movement tuning
-  accel: 1.8, // Horizontal acceleration
-  maxRun: 8.5, // Maximum horizontal speed
-  gravity: 0.75, // Downward force
-  jumpV: -13.5, // Initial jump impulse
+  accel: 10, // Horizontal acceleration
+  maxRun: 10, // Maximum horizontal speed
+  gravity: 3, // Downward force
+  jumpV: -22, // Initial jump impulse
 
   // State
   onGround: false, // True when standing on a platform
@@ -63,7 +63,7 @@ function setup() {
 }
 
 function draw() {
-  background(240);
+  background(90, 90, 90);
 
   // --- Draw all platforms ---
   fill(200);
